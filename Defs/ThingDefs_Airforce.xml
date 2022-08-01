@@ -5,13 +5,13 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>FCP_T51C_Armor</defName>
     <label>T-51C Airforce Power Armor</label>
-    <description>The T51 Model C or the Airforce Power Armor is an Variation of the T51 Pattern Power Armor created by the Airforce to suit their needs better, it can connect to the onboard aircraft flight systems and provide the user a heads up interface, it is also designed to help you withstand high g-forces and long falls for paratrooper missions.</description>
+    <description>The T-51 Airforce Model C or the Airforce Power Armor is an Variation of the T51 Pattern Power Armor, created by the Airforce to suit their needs it can connect to the onboard aircraft flight systems and provide the user a heads up interface, it is also designed to help you withstand high g-forces and long falls for paratrooper missions.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
@@ -83,13 +83,13 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>FCP_T51C_Helmet</defName>
     <label>T-51C Airforce Power Armor Helmet</label>
-    <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much different than the default model and it comes with abilities non standard in the regular t51 model such as being able to breathe out of atmosphere and withstand high G-Forces, it also shows a heads up display which can link to a standard military aircraft.</description>
+    <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much different than the default model and it comes with abilities non standard in the regular T-51 model such as being able to breathe out of atmosphere for a short period and withstand high G-Forces, it also shows a heads up display which can link to a standard military aircraft.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
