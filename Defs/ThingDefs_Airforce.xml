@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- T51C Armor -->
+  <!-- T51C Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>FCP_T51C_Armor</defName>
     <label>T-51C Airforce Power Armor</label>
-    <description>The T51 Model C or the Airforce Power Armor is an Variation of the T51 Pattern Power Armor created by the Airforce to suit their needs better, it can connect to the onboard aircraft flight systems and provide the user a heads up interface, it is also designed to help you withstand high g-forces and long falls for paratrooper missions.</description>
+    <description>The T51 Model C or the Airforce Power Armor is an Variation of the T51 Pattern
+      Power Armor created by the Airforce to suit their needs better, it can connect to the onboard
+      aircraft flight systems and provide the user a heads up interface, it is also designed to help
+      you withstand high g-forces and long falls for paratrooper missions.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -32,7 +35,7 @@
       <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -65,25 +68,28 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-        <tags>
-            <li>SpacerMilitary</li>
-        </tags>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
     </apparel>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
-            <modExtensions>
-            <li Class="FalloutCore.ApparelExtension">
-                <shouldHideBody>true</shouldHideBody>
-            </li>
-        </modExtensions>
+    <modExtensions>
+      <li Class="FalloutCore.ApparelExtension">
+        <shouldHideBody>true</shouldHideBody>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>FCP_T51C_Helmet</defName>
     <label>T-51C Airforce Power Armor Helmet</label>
-    <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much different than the default model and it comes with abilities non standard in the regular t51 model such as being able to breathe out of atmosphere and withstand high G-Forces, it also shows a heads up display which can link to a standard military aircraft.</description>
+    <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much
+      different than the default model and it comes with abilities non standard in the regular t51
+      model such as being able to breathe out of atmosphere and withstand high G-Forces, it also
+      shows a heads up display which can link to a standard military aircraft.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -114,8 +120,8 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-        <ToxicSensitivity>-1.0</ToxicSensitivity>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <ToxicSensitivity>-1.0</ToxicSensitivity>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
@@ -126,7 +132,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>T51C/head</wornGraphicPath>
+      <wornGraphicPath>T51C/head_south</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -134,9 +140,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
-        <tags>
-            <li>SpacerMilitary</li>
-        </tags>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
     </apparel>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
