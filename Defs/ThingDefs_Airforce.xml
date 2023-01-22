@@ -21,7 +21,7 @@
       <texPath>Armor/T51C/chest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <generateCommonality>2</generateCommonality>
+    <generateCommonality>0</generateCommonality>
     <statBases>
       <WorkToMake>70000</WorkToMake>
       <MaxHitPoints>300</MaxHitPoints>
@@ -43,12 +43,13 @@
     </thingCategories>
     <tradeTags>
       <li>HiTechArmor</li>
+      <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>5</ComponentSpacer>
-      <Plasteel>150</Plasteel>
-      <Uranium>30</Uranium>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>135</Plasteel>
+      <Uranium>20</Uranium>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -74,7 +75,7 @@
       </tags>
     </apparel>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
     <comps>
       <li Class="AthenaFramework.CompProperties_CustomApparelBody">
@@ -107,8 +108,9 @@
     <uiIconScale>1.25</uiIconScale>
     <tradeTags>
       <li>HiTechArmor</li>
+      <li>Armor</li>
     </tradeTags>
-    <generateCommonality>2</generateCommonality>
+    <generateCommonality>0</generateCommonality>
     <statBases>
       <WorkToMake>25000</WorkToMake>
       <MaxHitPoints>140</MaxHitPoints>
@@ -130,12 +132,13 @@
       <ComponentSpacer>2</ComponentSpacer>
       <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>40</Plasteel>
+      <Uranium>10</Uranium>
     </costList>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/T51C/head_south</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/head</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -148,7 +151,7 @@
       </tags>
     </apparel>
     <thingSetMakerTags>
-      <li>RewardStandardHighFreq</li>
+      <li>RewardStandardLowFreq</li>
     </thingSetMakerTags>
   </ThingDef>
 </Defs>
