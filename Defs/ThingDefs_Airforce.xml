@@ -36,6 +36,7 @@
     </statBases>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.4</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
@@ -76,7 +77,7 @@
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
     <comps>
-      <li class="AthenaFramework.CompProperties_CustomApparelBody">
+      <li Class="AthenaFramework.CompProperties_CustomApparelBody">
         <preventBodytype>true</preventBodytype>
         <forcedBodytype>Hulk</forcedBodytype>
       </li>
@@ -122,7 +123,8 @@
     </statBases>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
-      <ToxicSensitivity>-1.0</ToxicSensitivity>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
+      <ToxicResistance>0.5</ToxicResistance>
     </equippedStatOffsets>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
@@ -133,7 +135,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>T51C/head_south</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/head_south</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
