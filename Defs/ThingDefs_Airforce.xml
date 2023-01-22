@@ -75,11 +75,12 @@
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
-    <modExtensions>
-      <li Class="FalloutCore.ApparelExtension">
-        <shouldHideBody>true</shouldHideBody>
+    <comps>
+      <li class="AthenaFramework.CompProperties_CustomApparelBody">
+        <preventBodytype>true</preventBodytype>
+        <forcedBodytype>Hulk</forcedBodytype>
       </li>
-    </modExtensions>
+    </comps>
   </ThingDef>
 
 
