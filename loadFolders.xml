@@ -1,8 +1,0 @@
-<loadFolders>
-	<v1.3>
-		<li>/</li>
-		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>	
-	</v1.3>
-</loadFolders>
-
-
