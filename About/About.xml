@@ -1,22 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>FCP US Airforce T51-C Power Armor</name>
+  <name>FCP Airforce T51-C Power Armor and Wattz Weapons</name>
   <packageId>Canon.T51C</packageId>
-  <author>Canon + DanDMan</author>
+  <author>Canon</author>
   <supportedVersions>
-    <li>1.3</li>
+    <li>1.4</li>
   </supportedVersions>
   <modDependencies>
     <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <packageId>smartkar.athenaframework</packageId>
+      <displayName>Athena Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2903359518</steamWorkshopUrl>
+      <downloadUrl>https://github.com/SmArtKar/AthenaFramework</downloadUrl>
     </li>
   </modDependencies>
-  <loadAfter>
-    <li>brrainz.harmony</li>
-  </loadAfter>
   <description>TBD
 </description>
 </ModMetaData>
