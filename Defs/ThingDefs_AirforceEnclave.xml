@@ -20,15 +20,15 @@
     </graphicData>
     <generateCommonality>0</generateCommonality>
     <statBases>
-      <WorkToMake>70000</WorkToMake>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Mass>10</Mass>
-      <Flammability>0.15</Flammability>
-      <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.70</ArmorRating_Heat>
-      <Insulation_Cold>40</Insulation_Cold>
-      <Insulation_Heat>40</Insulation_Heat>
+      <WorkToMake>65000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.2</Flammability>
+      <ArmorRating_Sharp>1.15</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.57</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>15</Insulation_Heat>
       <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -112,16 +112,16 @@
     </tradeTags>
     <generateCommonality>0</generateCommonality>
     <statBases>
-      <WorkToMake>25000</WorkToMake>
-      <MaxHitPoints>140</MaxHitPoints>
-      <Mass>1.5</Mass>
+      <WorkToMake>30000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>2</Mass>
       <Flammability>0.1</Flammability>
-      <ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.70</ArmorRating_Heat>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
-      <EquipDelay>3</EquipDelay>
+      <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
