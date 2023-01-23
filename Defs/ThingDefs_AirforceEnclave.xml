@@ -3,12 +3,9 @@
 
   <!-- T51C Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>FCP_T51C_Armor</defName>
-    <label>T-51C Airforce Power Armor</label>
-    <description>The T51 Model C or the Airforce Power Armor is an Variation of the T51 Pattern
-      Power Armor created by the Airforce to suit their needs better, it can connect to the onboard
-      aircraft flight systems and provide the user a heads up interface, it is also designed to help
-      you withstand high g-forces and long falls for paratrooper missions.</description>
+    <defName>FCP_T51C_Armor_Enclave</defName>
+    <label>T-51X Enclave Airforce Power Armor</label>
+    <description>This variant of the T-51C is a more advanced variant developed by the enclave.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -18,7 +15,7 @@
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Armor/T51C/chest</texPath>
+      <texPath>Armor/T51C/enclave/chest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>0</generateCommonality>
@@ -27,8 +24,8 @@
       <MaxHitPoints>300</MaxHitPoints>
       <Mass>10</Mass>
       <Flammability>0.15</Flammability>
-      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
       <ArmorRating_Heat>0.70</ArmorRating_Heat>
       <Insulation_Cold>40</Insulation_Cold>
       <Insulation_Heat>40</Insulation_Heat>
@@ -46,10 +43,10 @@
       <li>Armor</li>
     </tradeTags>
     <costList>
-      <ComponentSpacer>4</ComponentSpacer>
-      <Plasteel>135</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+      <Plasteel>140</Plasteel>
       <Uranium>20</Uranium>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -61,7 +58,7 @@
         <li>Hands</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/T51C/chest</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/enclave/chest</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -87,22 +84,25 @@
 
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>FCP_T51C_Helmet</defName>
-    <label>T-51C Airforce Power Armor Helmet</label>
+    <defName>FCP_T51C_Helmet_Enclave</defName>
+    <label>T-51X Enclave Airforce Power Armor Helmet</label>
     <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much
       different than the default model and it comes with abilities non standard in the regular t51
       model such as being able to breathe out of atmosphere and withstand high G-Forces, it also
-      shows a heads up display which can link to a standard military aircraft.</description>
+      shows a heads up display which can link to a standard military aircraft, the Enclave variant has a built in gunlink</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <researchPrerequisites>
+        <li>PoweredArmor</li>
+        <li>Gunlink</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Armor/T51C/head</texPath>
+      <texPath>Armor/T51C/enclave/head</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -127,20 +127,19 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
       <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.6</ToxicEnvironmentResistance>
       <ToxicResistance>0.5</ToxicResistance>
+      <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <costList>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
       <ComponentIndustrial>5</ComponentIndustrial>
       <Plasteel>40</Plasteel>
-      <Uranium>10</Uranium>
+      <Uranium>15</Uranium>
     </costList>
     <apparel>
-      <shellCoversHead>true</shellCoversHead>
-
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/T51C/head</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/enclave/head</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -150,6 +149,7 @@
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
       <tags>
         <li>SpacerMilitary</li>
+        <li>Gunlink</li>
       </tags>
     </apparel>
     <thingSetMakerTags>

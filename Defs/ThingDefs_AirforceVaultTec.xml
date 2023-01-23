@@ -3,8 +3,8 @@
 
   <!-- T51C Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>FCP_T51C_Armor</defName>
-    <label>T-51C Airforce Power Armor</label>
+    <defName>FCP_T51C_Armor_VaultTec</defName>
+    <label>T-51C vault Power Armor</label>
     <description>The T51 Model C or the Airforce Power Armor is an Variation of the T51 Pattern
       Power Armor created by the Airforce to suit their needs better, it can connect to the onboard
       aircraft flight systems and provide the user a heads up interface, it is also designed to help
@@ -18,7 +18,7 @@
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Armor/T51C/chest</texPath>
+      <texPath>Armor/T51C/vault/chest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>0</generateCommonality>
@@ -61,7 +61,7 @@
         <li>Hands</li>
         <li>Feet</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/T51C/chest</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/vault/chest</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -87,8 +87,8 @@
 
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>FCP_T51C_Helmet</defName>
-    <label>T-51C Airforce Power Armor Helmet</label>
+    <defName>FCP_T51C_Helmet_VaultTec</defName>
+    <label>T-51C vault Power Armor Helmet</label>
     <description>the Helmet for the Airforce Mark C Variant of the T-51 Power Armor is much
       different than the default model and it comes with abilities non standard in the regular t51
       model such as being able to breathe out of atmosphere and withstand high G-Forces, it also
@@ -102,7 +102,7 @@
       </skillRequirements>
     </recipeMaker>
     <graphicData>
-      <texPath>Armor/T51C/head</texPath>
+      <texPath>Armor/T51C/vault/head</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.25</uiIconScale>
@@ -135,12 +135,10 @@
       <Uranium>10</Uranium>
     </costList>
     <apparel>
-      <shellCoversHead>true</shellCoversHead>
-
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Armor/T51C/head</wornGraphicPath>
+      <wornGraphicPath>Armor/T51C/vault/head</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
