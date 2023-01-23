@@ -135,8 +135,6 @@
       <Uranium>10</Uranium>
     </costList>
     <apparel>
-      <shellCoversHead>true</shellCoversHead>
-
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
