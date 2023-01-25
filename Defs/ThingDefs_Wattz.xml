@@ -2,7 +2,7 @@
 <Defs>
   <!-- Normal Wattz Gun -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef Name="FCP_Gun_Wattz_Laser" ParentName="BaseHumanMakeableGun">
     <defName>FCP_Gun_Wattz_Laser</defName>
     <label>Wattz Laser Gun</label>
     <description>to do</description>
@@ -12,7 +12,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.2, 1.2)</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedAngleOffset>35</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>45000</WorkToMake>
@@ -78,9 +78,19 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="FCP_Gun_Wattz_Laser">
+    <defName>FCP_Gun_Wattz_Laser_Enclave</defName>
+    <label>Wattz Laser Gun (Enclave)</label>
+    <graphicData>
+      <texPath>Weapons/WattzRifleAE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
+  </ThingDef>
+
   <!-- Auto Wattz Gun -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
+  <ThingDef Name="FCP_Gun_Wattz_Laser_Auto" ParentName="BaseHumanMakeableGun">
     <defName>FCP_Gun_Wattz_Laser_Auto</defName>
     <label>Wattz Automatic Laser Gun</label>
     <description>to do</description>
@@ -90,7 +100,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.2, 1.2)</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedAngleOffset>35</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>55000</WorkToMake>
@@ -156,6 +166,16 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="FCP_Gun_Wattz_Laser_Auto">
+    <defName>FCP_Gun_Wattz_Laser_Auto_Enclave</defName>
+    <label>Wattz Automatic Laser Gun (Enclave)</label>
+    <graphicData>
+      <texPath>Weapons/WattzRifleBE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.2, 1.2)</drawSize>
+    </graphicData>
   </ThingDef>
 
 
