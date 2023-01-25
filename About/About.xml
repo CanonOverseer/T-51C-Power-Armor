@@ -14,6 +14,9 @@
       <downloadUrl>https://github.com/SmArtKar/AthenaFramework</downloadUrl>
     </li>
   </modDependencies>
-  <description>TBD
+  <loadAfter>
+    <li>CarnySenpai.EnableOversizedWeapons</li>
+  </loadAfter>
+  <description>Adds the T-51C and Wattz Rifles into the Rim, EnableOversizedWeapons is Recommended  
 </description>
 </ModMetaData>
