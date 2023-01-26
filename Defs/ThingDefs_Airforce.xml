@@ -14,7 +14,7 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
@@ -98,7 +98,7 @@
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>12</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
