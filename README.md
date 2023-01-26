@@ -1,14 +1,13 @@
-# FlagsAndBanners
- ALL CREDITS TO SADJUUK FOR ART!!
-![Image](https://i.imgur.com/WAEzk68.png)
+# T51c Airforce Power Armor & Wattz Weapon Pack ![GitHub release (latest by date)](https://img.shields.io/github/v/release/CanonOverseer/T-51C-Power-Armor) [![RimWorld 1.4](https://img.shields.io/badge/RimWorld-1.4-green.svg?longCache=true&style=flat)](http://rimworldgame.com/)
+ 
+ A mod adding the fanmade T51c Airforce Power Armor with a few variants, and two versions of the Fallout 2 Wattz Laser Rifles
+ 
+ Requires the Athena Framework
 
- ALL CREDITS TO SADJUUK!!
- More Flags based on Sadjuuks mod that was updated by Mile
-https://steamcommunity.com/sharedfiles/filedetails/?id=1564928794
-https://steamcommunity.com/sharedfiles/filedetails/?id=2030264080&searchtext=flags+and+banner
+## Items
+- Wattz Lazer Rifle (Automatic and Sniper Versions that both have normal and enclave skins)
+- the T-51c Airforce Power Armor in 4 Paintjobs (Metallic, Standard, Enclave, Vault Tec)
 
-- Added flags in this version
-
-
-
-
+## Acknowledgements
+- DanDMan for Commissioned Art
+- SmartKar for the Athena framework
